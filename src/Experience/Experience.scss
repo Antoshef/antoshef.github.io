@@ -1,0 +1,40 @@
+.single-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 1rem;
+  margin-top: 2rem;
+
+  @media screen and (max-width: 599px) {
+    text-align: center;
+    align-items: center;
+  }
+
+  &__link {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: var(--primary);
+  }
+
+  &__link::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -5px;
+    content: '';
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: var(--primary);
+    transition:
+      width 0.3s ease 0s,
+      left 0.3s ease 0s;
+    width: 0;
+  }
+
+  &__link:hover::after {
+    width: 94%;
+    left: 3%;
+  }
+}

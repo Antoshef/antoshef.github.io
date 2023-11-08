@@ -1,0 +1,26 @@
+.contact {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    @media screen and (max-width: 599px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    p {
+      margin-right: 0.5rem;
+    }
+  }
+
+  &__image {
+    width: 80px;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+    }
+  }
+}

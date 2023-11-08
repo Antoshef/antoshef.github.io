@@ -1,0 +1,29 @@
+.navigation {
+  text-align: center;
+
+  &__item {
+    margin: 0.2rem 0;
+    font-family: 'Rajdhani';
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: var(--secondary-alt);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--red);
+    }
+  }
+}
