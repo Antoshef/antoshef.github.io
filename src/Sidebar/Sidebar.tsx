@@ -1,4 +1,4 @@
-import React, { FC, memo, useCallback } from 'react';
+import React, { FC, memo, useCallback, useEffect } from 'react';
 import Navigation from '../Navigation/Navigation';
 import './Sidebar.scss';
 import { joinStrings } from '../utils/utils';
@@ -8,8 +8,8 @@ import MeImage from '../images/yellow-shirt.jpg';
 
 type SidebarProps = {
   isSidebarOpen: boolean;
-  setIsSidebarOpen: (isSidebarOpen: boolean) => void;
-  setIsExpanded: (isExpanded: boolean) => void;
+  setIsSidebarOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  setIsExpanded: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 /**
@@ -20,15 +20,28 @@ const Sidebar: FC<SidebarProps> = ({
   setIsSidebarOpen,
   setIsExpanded,
 }) => {
-  const openSidebar = useCallback(() => setIsSidebarOpen(true), []);
-  const closeSidebar = useCallback(() => setIsSidebarOpen(false), []);
+  const openSidebar = useCallback(
+    () => setIsSidebarOpen(true),
+    [setIsSidebarOpen],
+  );
+  const closeSidebar = useCallback(
+    () => setIsSidebarOpen(false),
+    [setIsSidebarOpen],
+  );
 
   const openImage = useCallback(() => {
     const windowWidth = window.innerWidth;
     if (windowWidth < 600) return;
     setIsExpanded(true);
     closeSidebar();
-  }, []);
+  }, [closeSidebar, setIsExpanded]);
+
+  useEffect(() => {
+    const windowWidth = window.innerWidth;
+    if (windowWidth >= 600) {
+      setIsSidebarOpen(true);
+    }
+  }, [setIsSidebarOpen]);
 
   return (
     <aside
