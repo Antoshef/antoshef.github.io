@@ -21,19 +21,23 @@ module.exports = {
           'style-loader', // 3. Inject styles into DOM
           'css-loader', // 2. Turn css into commonjs
           'sass-loader', // 1. Turn scss into css
+        ],
+      },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)$/,
+        use: [
           {
-            test: /\.(woff(2)?|ttf|eot|svg)$/,
-            use: [
-              {
-                loader: 'file-loader',
-                options: {
-                  name: '[name].[ext]',
-                  outputPath: 'fonts/',
-                },
-              },
-            ],
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'fonts/',
+            },
           },
         ],
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        type: 'asset/resource',
       },
     ],
   },
