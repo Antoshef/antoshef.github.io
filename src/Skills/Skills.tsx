@@ -13,7 +13,7 @@ import Section from '../Section/Section';
 const Skills: FC = () => {
   return (
     <Section>
-      <div className='skills'>
+      <div id='skills' className='skills'>
         <h2>Skills</h2>
         <div className='skills__list'>
           <div className='skills__list-item'>
