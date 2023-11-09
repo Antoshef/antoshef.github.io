@@ -1,7 +1,6 @@
 import './App.scss';
 import './variables.scss';
 import React, { useCallback, useState } from 'react';
-import Header from './Header/Header';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Experience from './Experience/Experience';
@@ -21,7 +20,7 @@ function App() {
   const closeImage = useCallback(() => {
     setIsExpanded(false);
     openSidebar();
-  }, []);
+  }, [openSidebar]);
 
   return (
     <div className='app'>
@@ -57,7 +56,6 @@ function App() {
         >
           <img src={MeImage} alt='Anton Stanev' />
         </div>
-        <Header />
         <About />
         <Projects />
         <Experience />

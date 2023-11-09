@@ -10,16 +10,16 @@ const Navigation: FC<Props> = ({ closeSidebar }) => {
     const windowWidth = window.innerWidth;
     if (windowWidth >= 600) return;
     closeSidebar();
-  }, []);
+  }, [closeSidebar]);
 
   return (
     <nav className='navigation'>
       <ul className='navigation__list'>
-        <li onClick={closeSidebarAndScroll} className='navigation__item'>
+        {/* <li onClick={closeSidebarAndScroll} className='navigation__item'>
           <a href='#home' className='navigation__link'>
             Home
           </a>
-        </li>
+        </li> */}
         <li onClick={closeSidebarAndScroll} className='navigation__item'>
           <a href='#about' className='navigation__link'>
             About
