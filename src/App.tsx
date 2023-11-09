@@ -9,7 +9,7 @@ import Contact from './Contact/Contact';
 import Sidebar from './Sidebar/Sidebar';
 import { joinStrings } from './utils/utils';
 import MeImage from './images/yellow-shirt.jpg';
-import ArrowRightIcon from './images/double arrows right.png';
+import ArrowRightIcon from './images/double-arrows-right.png';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

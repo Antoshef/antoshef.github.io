@@ -2,7 +2,7 @@ import React, { FC, memo, useCallback, useEffect } from 'react';
 import Navigation from '../Navigation/Navigation';
 import './Sidebar.scss';
 import { joinStrings } from '../utils/utils';
-import ArrowRightIcon from '../images/double arrows right.png';
+import ArrowRightIcon from '../images/double-arrows-right.png';
 import CloseIcon from '../images/close-icon-blue-red.png';
 import MeImage from '../images/yellow-shirt.jpg';
 

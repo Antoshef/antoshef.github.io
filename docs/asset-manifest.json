@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8f6535eb.css",
-    "main.js": "/static/js/main.c6816885.js",
+    "main.js": "/static/js/main.af4fcf77.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Rajdhani-Medium.ttf": "/static/media/Rajdhani-Medium.69a9f7bccb45c01931a2.ttf",
     "static/media/yellow-shirt.jpg": "/static/media/yellow-shirt.1fe366d01832002df49d.jpg",
@@ -20,16 +20,16 @@
     "static/media/talk.png": "/static/media/talk.b0174612f08649648c7a.png",
     "static/media/React-Symbol.png": "/static/media/React-Symbol.21ab8e16d0a7abae2b5e.png",
     "static/media/LinkedIn-logo.png": "/static/media/LinkedIn-logo.53330ba5ca946fbd2c57.png",
-    "static/media/double arrows right.png": "/static/media/double arrows right.eef8029d114881e70fcc.png",
+    "static/media/double-arrows-right.png": "/static/media/double-arrows-right.eef8029d114881e70fcc.png",
     "static/media/close-icon-blue-red.png": "/static/media/close-icon-blue-red.def25b81f2472b1cf358.png",
     "static/media/Redux.png": "/static/media/Redux.3648034f0e6b82750acb.png",
     "index.html": "/index.html",
     "main.8f6535eb.css.map": "/static/css/main.8f6535eb.css.map",
-    "main.c6816885.js.map": "/static/js/main.c6816885.js.map",
+    "main.af4fcf77.js.map": "/static/js/main.af4fcf77.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f6535eb.css",
-    "static/js/main.c6816885.js"
+    "static/js/main.af4fcf77.js"
   ]
 }
