@@ -1,14 +1,14 @@
 import React, { FC, memo } from 'react';
-import AEMLogo from '../images/skills/aem-logo.png';
-import ReactLogo from '../images/skills/React-Symbol.png';
+import AEMLogo from '../images/skills/AEM.png';
+import ReactLogo from '../images/skills/React.png';
 import TypeScriptLogo from '../images/skills/typescript.png';
 import JavaScriptLogo from '../images/skills/javascript-logo.png';
 import ReduxLogo from '../images/skills/Redux.png';
 import CypressLogo from '../images/skills/cypress-logo.png';
 import SQLLogo from '../images/skills/sql-database.png';
 import DataScienceLogo from '../images/skills/data-science-logo.png';
-import './Skills.scss';
 import Section from '../Section/Section';
+import './Skills.scss';
 
 const Skills: FC = () => {
   return (
