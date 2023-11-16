@@ -1,6 +1,6 @@
 import React, { FC, memo } from 'react';
 import Section from '../Section/Section';
-import HomeBG from '../images/home-background.jpg';
+import Me from '../images/me-title.png';
 import './Header.scss';
 
 const Header: FC = () => {
@@ -8,7 +8,7 @@ const Header: FC = () => {
     <Section>
       <header className='header' id='home'>
         <div>
-          <img src={HomeBG} alt='home background' />
+          <img src={Me} alt='home background' />
         </div>
       </header>
     </Section>

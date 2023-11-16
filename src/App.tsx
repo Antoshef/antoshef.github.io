@@ -1,6 +1,6 @@
 import './App.scss';
 import './variables.scss';
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useMemo, useState } from 'react';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Experience from './Experience/Experience';
@@ -10,12 +10,17 @@ import Sidebar from './Sidebar/Sidebar';
 import { joinStrings } from './utils/utils';
 import MeImage from './images/yellow-shirt.jpg';
 import ArrowRightIcon from './images/double-arrows-right.png';
+import Header from './Header/Header';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
 
   const openSidebar = useCallback(() => setIsSidebarOpen(true), []);
+
+  const isMobile = useMemo(() => {
+    return window.innerWidth <= 599;
+  }, []);
 
   const closeImage = useCallback(() => {
     setIsExpanded(false);
@@ -56,10 +61,12 @@ function App() {
         >
           <img src={MeImage} alt='Anton Stanev' />
         </div>
-        <About />
-        <Projects />
-        <Experience />
+        <Header />
+        {!isMobile && <About />}
         <Skills />
+        <Experience />
+        {isMobile && <About />}
+        <Projects />
         <Contact />
       </main>
     </div>
