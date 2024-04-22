@@ -1,6 +1,18 @@
-import React, { FC, memo } from 'react';
+import React, { FC, memo, useEffect } from 'react';
 import assets from './assets.json';
 import './Experience.scss';
+
+const getAsset = async (name: string, assets: AssetType[]) =>
+  new Promise<AssetType | undefined>((resolve, reject) => {
+    try {
+      const asset = assets.find((asset) => asset.company === name) as
+        | AssetType
+        | undefined;
+      resolve(asset);
+    } catch (err) {
+      reject(err);
+    }
+  });
 
 type AssetType = {
   company: string;
@@ -16,9 +28,13 @@ type Props = {
 };
 
 const SingleExperience: FC<Props> = ({ name }) => {
-  const asset = assets.find((asset) => asset.company === name) as
-    | AssetType
-    | undefined;
+  const [asset, setAsset] = React.useState<AssetType | undefined>(undefined);
+
+  useEffect(() => {
+    getAsset(name, assets).then((asset) => {
+      setAsset(asset);
+    });
+  });
 
   if (!asset) return null;
 

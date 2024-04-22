@@ -5,8 +5,8 @@
     "position": "Senior Software Engineer",
     "link": "https://eyasgaming.com/",
     "descriptions": [
-      "Actively contributed to the development and maintenance of two major projects: an interactive online casino platform and a dynamic football online betting platform. Utilized modern web development frameworks and libraries such as React and Redux to build responsive and user-friendly interfaces, ensuring optimal user experience.",
-      "Collaborated with a team of developers using Microsoft Azure for source control, ensuring smooth version control and code integration. Regularly participated in agile development cycles, using Jira for task tracking, sprint planning, and bug tracking. Collaborated closely with cross-functional teams, including designers, backend developers, and product managers, to deliver high-quality features on time.",
+      "I actively contributed to the development and maintenance of two major projects: an interactive online casino platform and a dynamic football online betting platform. Utilized modern web development frameworks and libraries such as React and Redux to build responsive and user-friendly interfaces, ensuring optimal user experience. I was the major contributor on creating the architecture for the football betting components. I give my best to make them with the best performance and reusability, using custom hooks and memoization to optimize the components render cycle.",
+      "I collaborated with a team of developers using Microsoft Azure for source control, ensuring smooth version control and code integration. Regularly participated in agile development cycles, using Jira for task tracking, sprint planning, and bug tracking. Collaborated closely with cross-functional teams, including designers, backend developers, and product managers, to deliver high-quality features.",
       "In our project, we utilize AEM to oversee multiple casino brands. Through AEM, we not only configure site settings for each brand and page but also manage templates, components, and workflows to ensure consistent content delivery. The Digital Asset Management (DAM) system in AEM helps us centralize and manage media assets effectively. We also make use of AEM's personalization features to tailor user experiences based on audience segments. With the integration of the CRX manager, I ensure seamless data synchronization between the development and production environments, ensuring a smooth content deployment process."
     ],
     "stack": [
@@ -15,10 +15,11 @@
       "React",
       "Redux",
       "Jest",
+      "React Testing Library",
       "SASS",
       "Adobe Experience Manager",
       "Docker",
-      "Azure",
+      "Dev Azure",
       "Jira",
       "Figma"
     ]
@@ -29,12 +30,10 @@
     "position": "Software Developer",
     "link": "https://anvilo.com/",
     "descriptions": [
-      "Developing a virtual phone system application for one of the company's clients, which serves hundred thousands of users.",
-      "Creating features for making, receiving phone and video calls, text messaging and call history for desktop, browser or mobile phone device.",
-      "Working closely with the product management team to ensure we're building the best products for our client.",
-      "Reviewing code for quality, finding weaknesses & ensuring adherence to standards.",
-      "Debugging and optimizing code and automate routine tasks.",
-      "Using the ability to think from a user perspective."
+      "Developing a virtual phone system applications for two of the company's clients, which serves hundred thousands of users. Creating features for making, receiving phone and video calls, text messaging and call history for desktop, browser or mobile devices.",
+      "The applications were really fon to work with, and complex enought to keep my focus on level. The experience gained from these projects was huge for me as I got my hands on large scale applications. For performance purposes we switched Talkroute applicationa from using Redux to Redux-Toolkit as it provides some optimistic updates, which benefit the application itself, and the http requests were handled pretty easily. With this change we optimized the app performance as well.",
+      "Working closely with the product management team to ensure we're building the best products for our client. Reviewing code for quality, finding weaknesses & ensuring adherence to standards. Debugging and optimizing code and automate routine tasks.",
+      "I developed the ability to think from a user perspective, which is a really good skill to gain that helps me a lot."
     ],
     "stack": [
       "JavaScript",
@@ -58,11 +57,10 @@
     "position": "Software Developer",
     "link": "https://mentormate.com/",
     "descriptions": [
-      "Contributed to the team goals and worked on tasks covering the entire code base development lifecycle.",
-      "Developed new and supporting existing features.",
-      "Implemented creative solutions for web platforms used by thousands of customers.",
-      "Develop fully responsive web pages for company's clients.",
-      "Constantly improve quality of the codebase."
+      "During my job at Mentor Mate I contributed to the team goals and worked on tasks covering some of our clients web pages.",
+      "As this was my first journey I learned a lot from my collaboration with other developers and I gained experience with all necessary applications that are used for my job. For inner communication between the team we used Slack and Google Meet for video call, and GitHub for source control management.",
+      "On my first tasks as a junior developer I started supporting one of the company's clients web page with other more senior developer, which guided me through the job process.",
+      "My responsibilities were to create a fully responsive layout according to design made by the UI team and write a fully covered with tests code, which had to perform at its best."
     ],
     "stack": [
       "JavaScript",

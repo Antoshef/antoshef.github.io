@@ -1,5 +1,5 @@
 import React, { FC, memo } from 'react';
-import AEMLogo from '../images/skills/AEM.png';
+import NextJSLogo from '../images/skills/nextjs.png';
 import ReactLogo from '../images/skills/React.png';
 import TypeScriptLogo from '../images/skills/typescript.png';
 import JavaScriptLogo from '../images/skills/javascript-logo.png';
@@ -17,7 +17,7 @@ const Skills: FC = () => {
         <h2>Skills</h2>
         <div className='skills__list'>
           <div className='skills__list-item'>
-            <img src={AEMLogo} alt='Adobe Experience Manager logo' />
+            <img src={NextJSLogo} alt='Next JS logo' />
           </div>
           <div className='skills__list-item'>
             <img src={ReactLogo} alt='React logo' />
