@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.12ad6be2.css",
-    "main.js": "/static/js/main.3ba5174c.js",
+    "main.js": "/static/js/main.88c93283.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/me-title.png": "/static/media/me-title.ba891c99ccb63768ad80.png",
     "static/media/Rajdhani-Medium.ttf": "/static/media/Rajdhani-Medium.69a9f7bccb45c01931a2.ttf",
-    "static/media/AEM.png": "/static/media/AEM.e4fcab7fce2c33a49bbc.png",
     "static/media/yellow-shirt.jpg": "/static/media/yellow-shirt.1fe366d01832002df49d.jpg",
     "static/media/lance logo.png": "/static/media/lance logo.478157b9d1784521e7cf.png",
     "static/media/sql-database.png": "/static/media/sql-database.b2095a50d30dd9a9e4aa.png",
@@ -23,13 +22,14 @@
     "static/media/double-arrows-right.png": "/static/media/double-arrows-right.eef8029d114881e70fcc.png",
     "static/media/close-icon-blue-red.png": "/static/media/close-icon-blue-red.def25b81f2472b1cf358.png",
     "static/media/Redux.png": "/static/media/Redux.59ae4e7b43447c986938.png",
+    "static/media/nextjs.png": "/static/media/nextjs.9c33ee60a7da0a0a662c.png",
     "index.html": "/index.html",
     "main.12ad6be2.css.map": "/static/css/main.12ad6be2.css.map",
-    "main.3ba5174c.js.map": "/static/js/main.3ba5174c.js.map",
+    "main.88c93283.js.map": "/static/js/main.88c93283.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12ad6be2.css",
-    "static/js/main.3ba5174c.js"
+    "static/js/main.88c93283.js"
   ]
 }
