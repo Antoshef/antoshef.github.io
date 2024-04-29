@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.12ad6be2.css",
+    "main.js": "/static/js/main.3ba5174c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/me-title.png": "/static/media/me-title.ba891c99ccb63768ad80.png",
+    "static/media/Rajdhani-Medium.ttf": "/static/media/Rajdhani-Medium.69a9f7bccb45c01931a2.ttf",
+    "static/media/AEM.png": "/static/media/AEM.e4fcab7fce2c33a49bbc.png",
+    "static/media/yellow-shirt.jpg": "/static/media/yellow-shirt.1fe366d01832002df49d.jpg",
+    "static/media/lance logo.png": "/static/media/lance logo.478157b9d1784521e7cf.png",
+    "static/media/sql-database.png": "/static/media/sql-database.b2095a50d30dd9a9e4aa.png",
+    "static/media/SourceCodePro-Medium.ttf": "/static/media/SourceCodePro-Medium.e6187143063009221163.ttf",
+    "static/media/PermanentMarker-Regular.ttf": "/static/media/PermanentMarker-Regular.109a10dca0508e41aa12.ttf",
+    "static/media/data-science-logo.png": "/static/media/data-science-logo.dcd9b351cde6ad2e752c.png",
+    "static/media/cypress-logo.png": "/static/media/cypress-logo.8795e4469a3bff44e441.png",
+    "static/media/merkur.png": "/static/media/merkur.ea0fc1e1de17531443da.png",
+    "static/media/BebasNeue-Regular.ttf": "/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "static/media/javascript-logo.png": "/static/media/javascript-logo.f8af770ae57d1a47a2c0.png",
+    "static/media/komtalk.png": "/static/media/komtalk.e766535c706105efee83.png",
+    "static/media/typescript.png": "/static/media/typescript.14e667324c4144a407b7.png",
+    "static/media/talk.png": "/static/media/talk.b0174612f08649648c7a.png",
+    "static/media/LinkedIn-logo.png": "/static/media/LinkedIn-logo.53330ba5ca946fbd2c57.png",
+    "static/media/double-arrows-right.png": "/static/media/double-arrows-right.eef8029d114881e70fcc.png",
+    "static/media/close-icon-blue-red.png": "/static/media/close-icon-blue-red.def25b81f2472b1cf358.png",
+    "static/media/Redux.png": "/static/media/Redux.59ae4e7b43447c986938.png",
+    "index.html": "/index.html",
+    "main.12ad6be2.css.map": "/static/css/main.12ad6be2.css.map",
+    "main.3ba5174c.js.map": "/static/js/main.3ba5174c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12ad6be2.css",
+    "static/js/main.3ba5174c.js"
+  ]
+}
